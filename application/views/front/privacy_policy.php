@@ -35,7 +35,7 @@
                     <a class="dropdown-item" href="<?= site_url('') ?>">Home</a>
                     <a class="dropdown-item" href="<?= site_url('about_us') ?>">About Us</a>
                     <a class="dropdown-item" href="<?= site_url('how_to_join') ?>">How to Join</a>
-                    <a class="dropdown-item" href="<?= site_url('why_scrollup') ?>">Why Infotech Marathi</a>
+                    <a class="dropdown-item" href="<?= site_url('why_infotech_marathi') ?>">Why Infotech Marathi</a>
                     <a class="dropdown-item" href="<?= site_url('referral-login') ?>">Referral Partner</a>
                     <a class="dropdown-item" href="<?= site_url('contact_us') ?>">Contact Us</a>
                 </div>
