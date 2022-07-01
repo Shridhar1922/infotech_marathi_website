@@ -7,8 +7,9 @@
     height: 39.83px;
     margin-bottom: 10px;
 }
+
 .f_pages_hide {
-        display: none;
+    display: none;
 }
 
 .column1 select.form-input option {
@@ -53,7 +54,7 @@ label.error {
                     <a class="dropdown-item" href="<?= site_url('') ?>">Home</a>
                     <a class="dropdown-item" href="<?= site_url('about_us') ?>">About Us</a>
                     <a class="dropdown-item" href="<?= site_url('how_to_join') ?>">How to Join</a>
-                    <a class="dropdown-item" href="<?= site_url('why_scrollup') ?>">Why ScrollUp</a>
+                    <a class="dropdown-item" href="<?= site_url('why_scrollup') ?>">Why Infotech Marathi</a>
                     <a class="dropdown-item" href="<?= site_url('referral-login') ?>">Referral Partner</a>
                     <a class="dropdown-item" href="<?= site_url('contact_us') ?>">Contact Us</a>
                 </div>
@@ -153,7 +154,10 @@ label.error {
         <a href="<?= site_url('terms_and_conditions') ?>">Terms & Conditions</a>
     </p>
     <p class="para-desc mx-auto text-muted mt-1 text-center font-jaldi-bold" style="margin-bottom: 0px !important">
-        ©2021 Scrollup. All Rights Reserved
+        ©<script type="text/javascript">
+        var year = new Date();
+        document.write(year.getFullYear());
+        </script> Infotech Marathi. All Rights Reserved
     </p>
 </footer>
 

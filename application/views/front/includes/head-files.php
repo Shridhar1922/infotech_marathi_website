@@ -5,15 +5,15 @@
     <meta charset=utf-8 />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>
-        <?php echo !empty($cms_data[0]['cms_meta_title']) ? $cms_data[0]['cms_meta_title'] : 'Scrollup | Digital Newspaper' ?>
+        <?php echo !empty($cms_data[0]['cms_meta_title']) ? $cms_data[0]['cms_meta_title'] : 'Infotech Marathi | Digital Newspaper' ?>
     </title>
     <meta name="description" content="<?php echo !empty($cms_data[0]['cms_description']) ? $cms_data[0]['cms_description'] : '📣 ब्रेकिंग न्यूज 😳 आता WhatsApp वर मिळवा न्यूज, जॉब्स आणि माहिती-मनोरंजन.आणि बरेच काही अगदी 
-FREE त्यासाठी लगेच जॉईन करा 👉 Scrollup Digital Magazine 👈'; ?>">
+FREE त्यासाठी लगेच जॉईन करा 👉 Infotech Marathi Digital Magazine 👈'; ?>">
     <meta name="keywords"
         content="<?php echo !empty($cms_data[0]['cms_meta_keywords']) ? $cms_data[0]['cms_meta_keywords'] : 'magazine in marathi, marathi magazine, digital magazine whatsapp,marathi news on whatsapp, whatsapp digital magazine, marathi digital magazine on whatsapp whatsapp magazine, free digital magazine whatsapp marathi, marathi digital magazine'; ?>">
     <meta name="msvalidate.01" content="886EBFE9AD0C33CFC5DDDB0E7888FEFA" />
     <link rel="icon"
-        href="<?php echo base_url(); ?><?php echo !empty($visualSettings[0]['favicon']) ? $visualSettings[0]['favicon'] : 'assets/front_commonarea/img/scrollup_crop.png'; ?>"
+        href="<?php echo base_url(); ?><?php echo !empty($visualSettings[0]['favicon']) ? $visualSettings[0]['favicon'] : 'assets/front_commonarea/img/Infotech Marathi_crop.png'; ?>"
         type="image/png" sizes="16x16">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
     <meta name="viewport" content=" width=device-width,initial-scale=1maximum-scale=1,user-scalable=0,minimal-ui" />
@@ -44,20 +44,20 @@ FREE त्यासाठी लगेच जॉईन करा 👉 Scrollup 
     <!-- Summer note -->
     <link rel="stylesheet" href="<?= site_url('assets/commonarea/'); ?>plugins/summernote/summernote.css">
 
-    <meta property="og:title" content="Scrollup | Digital Newspaper">
-    <meta property="og:site_name" content="Scrollup">
-    <meta property="og:url" content="https://scrollup.in/">
+    <meta property="og:title" content="Infotech Marathi | Digital Newspaper">
+    <meta property="og:site_name" content="Infotech Marathi">
+    <meta property="og:url" content="https://infotechmarathi.org/">
     <meta property="og:description" content="📣 ब्रेकिंग न्यूज 😳 आता WhatsApp वर मिळवा न्यूज, जॉब्स आणि माहिती-मनोरंजन.आणि बरेच काही अगदी 
-FREE त्यासाठी लगेच जॉईन करा 👉 Scrollup Digital Magazine 👈 ">
+FREE त्यासाठी लगेच जॉईन करा 👉 Infotech Marathi Digital Magazine 👈 ">
     <meta property="og:type" content="website">
     <meta property="og:image"
-        content="<?php echo base_url(); ?><?php echo !empty($visualSettings[0]['favicon']) ? $visualSettings[0]['favicon'] : 'assets/front_commonarea/img/scrollup_crop.png'; ?>">
+        content="<?php echo base_url(); ?><?php echo !empty($visualSettings[0]['favicon']) ? $visualSettings[0]['favicon'] : 'assets/front_commonarea/img/infotech_marathi_crop.png'; ?>">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="scrollup.in">
-    <meta name="twitter:title" content="Scrollup | Digital Newspaper">
+    <meta name="twitter:site" content="infotechmarathi.org">
+    <meta name="twitter:title" content="Infotech Marathi | Digital Newspaper">
     <meta name="twitter:description" content="📣 ब्रेकिंग न्यूज 😳 आता WhatsApp वर मिळवा न्यूज, जॉब्स आणि माहिती-मनोरंजन.आणि बरेच काही अगदी 
-FREE त्यासाठी लगेच जॉईन करा 👉 Scrollup Digital Magazine 👈">
+FREE त्यासाठी लगेच जॉईन करा 👉 Infotech Marathi Digital Magazine 👈">
     <meta name="twitter:image"
         content="<?php echo base_url(); ?><?php echo !empty($visualSettings[0]['favicon']) ? $visualSettings[0]['favicon'] : 'assets/front_commonarea/img/scrollup_crop.png'; ?>">
 
