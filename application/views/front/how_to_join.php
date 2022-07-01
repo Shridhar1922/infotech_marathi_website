@@ -3,87 +3,87 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <style>
-    #how-to-join video {
-        height: 550px;
-        border-radius: .5rem;
-    }
+#how-to-join video {
+    height: 550px;
+    border-radius: .5rem;
+}
 
-    #how-to-join .modal-body {
-        padding: 50px 0px;
-    }
+#how-to-join .modal-body {
+    padding: 50px 0px;
+}
 
-    #how-to button {
-        position: relative;
-        right: 12px;
-        top: 3px;
-    }
+#how-to button {
+    position: relative;
+    right: 12px;
+    top: 3px;
+}
 
-    .modal-backdrop {
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 1040;
-        width: 100vw;
-        height: 100vh;
-        background-color: #00000061 !important;
-    }
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000061 !important;
+}
 
-    .modal-header {
-        border-bottom: unset;
-    }
+.modal-header {
+    border-bottom: unset;
+}
 
-    .modal-content {
-        background-color: unset;
-        border: none;
-        outline: none;
-    }
+.modal-content {
+    background-color: unset;
+    border: none;
+    outline: none;
+}
 
-    .how-to-join-bg button {
-        animation: ripple-white 1s infinite;
-    }
+.how-to-join-bg button {
+    animation: ripple-white 1s infinite;
+}
 
-    .modal-header .close {
-        /* padding: 1rem 1rem; */
-        margin: 0;
+.modal-header .close {
+    /* padding: 1rem 1rem; */
+    margin: 0;
 
 
-        color: #fff;
+    color: #fff;
 
-        z-index: 5;
-    }
+    z-index: 5;
+}
 
-    #close-video {
-        border: 4px solid;
-        border-radius: 50%;
-        background: transparent;
-        font-size: 26px;
-        color: #fff;
-        height: 50px;
-        width: 50px;
-        padding: 0px !important;
-        text-align: center;
-        position: absolute;
+#close-video {
+    border: 4px solid;
+    border-radius: 50%;
+    background: transparent;
+    font-size: 26px;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    padding: 0px !important;
+    text-align: center;
+    position: absolute;
 
-        bottom: -15px;
-        right: 48%;
-    }
+    bottom: -15px;
+    right: 48%;
+}
 
-    .modal-header button:focus {
-        outline: unset;
-    }
+.modal-header button:focus {
+    outline: unset;
+}
 
-    .text_how {
-        font-size: 15px;
-        margin-left: -20px;
-        font-family: "jaldi", sans-serif;
-        text-transform: uppercase;
-        font-weight: 600;
-        letter-spacing: 1px;
-    }
+.text_how {
+    font-size: 15px;
+    margin-left: -20px;
+    font-family: "jaldi", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
 
-    .text_how:hover {
-        color: skyblue;
-    }
+.text_how:hover {
+    color: skyblue;
+}
 </style>
 
 
@@ -91,11 +91,13 @@
     <nav class="navbar navbar-light bg-light">
         <div class="container">
             <a href="<?= site_url() ?>" class="navbar-brand logo">
-                <img src="<?php echo base_url(); ?><?php echo !empty($visualSettings[0]['logo']) ? $visualSettings[0]['logo'] : 'assets/commonarea/dist/img/Scrolup-Logo.png'; ?>" height="60px">
+                <img src="<?php echo base_url(); ?><?php echo !empty($visualSettings[0]['logo']) ? $visualSettings[0]['logo'] : 'assets/commonarea/dist/img/Scrolup-Logo.png'; ?>"
+                    height="60px">
             </a>
 
             <div class="dropdown">
-                <button class="btn btn-main dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button class="btn btn-main dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-bars"></i>
                 </button>
                 <div class="dropdown-menu mobile-view" aria-labelledby="dropdownMenuButton">
@@ -139,7 +141,7 @@
                 <h4>Step 1 </h4>
                 <h6 class="pt-3">१. जिल्हा निवडा</h6>
                 <p>
-                    <span style="font-size:18px">www.scrollup.in </span> वेबसाईट वर गेल्यावर तुमचा जिल्हा निवडा.
+                    <span style="font-size:18px">www.infotechmarathi.org </span> वेबसाईट वर गेल्यावर तुमचा जिल्हा निवडा.
                     <br>
                 </p>
 
@@ -175,8 +177,10 @@
         <div class="row py-2">
             <div class="col-md-6 ">
                 <h4 class=" pb-3">Step 3 </h4>
-                <h6>५. स्क्रोलअप नंबर</h6>
-                <p> आलेला मेसेज पाठवल्यावर सेवा मिळवण्यासाठी स्क्रोलअप चा नंबर सेव्ह करणे गरजेच आहे.<br>
+                <h6>५.
+                    इन्फोटेक मराठी नंबर</h6>
+                <p> आलेला मेसेज पाठवल्यावर सेवा मिळवण्यासाठी
+                    इन्फोटेक मराठी चा नंबर सेव्ह करणे गरजेच आहे.<br>
                 </p>
 
                 <h6>६. वेबसाईटवर जा</h6>
@@ -198,7 +202,8 @@
             <div class="col-md-6 ">
                 <h4 class=" pb-3">Step 4 </h4>
                 <h6>7. पुढे पाठवा</h6>
-                <p> तुमच्या मित्र मैत्रिणीला व परिवाराला विनामूल्य अपडेट्स देण्यासाठी ग्रुप वर किव्हा पर्सनल ला पाठवा (नोट -अनिवार्य नाही )<br>
+                <p> तुमच्या मित्र मैत्रिणीला व परिवाराला विनामूल्य अपडेट्स देण्यासाठी ग्रुप वर किव्हा पर्सनल ला पाठवा
+                    (नोट -अनिवार्य नाही )<br>
                 </p>
 
                 <h6>8. 24 तासात सेवा सुरू</h6>
@@ -267,8 +272,10 @@
         <div class="row py-2">
             <div class="col-md-6 ">
                 <h4 class="py-2">Step 3 </h4>
-                <h6>५. स्क्रोलअप नंबर</h6>
-                <p> आलेला मेसेज पाठवल्यावर सेवा मिळवण्यासाठी स्क्रोलअप चा नंबर सेव्ह करणे गरजेच आहे.<br>
+                <h6>५.
+                    इन्फोटेक मराठी नंबर</h6>
+                <p> आलेला मेसेज पाठवल्यावर सेवा मिळवण्यासाठी
+                    इन्फोटेक मराठी चा नंबर सेव्ह करणे गरजेच आहे.<br>
                 </p>
 
                 <h6>६. वेबसाईटवर जा</h6>
@@ -287,7 +294,8 @@
             <div class="col-md-6 ">
                 <h4 class="py-2">Step 4 </h4>
                 <h6>7. पुढे पाठवा</h6>
-                <p> तुमच्या मित्र मैत्रिणीला व परिवाराला विनामूल्य अपडेट्स देण्यासाठी ग्रुप वर किव्हा पर्सनल ला पाठवा (नोट -अनिवार्य नाही )<br>
+                <p> तुमच्या मित्र मैत्रिणीला व परिवाराला विनामूल्य अपडेट्स देण्यासाठी ग्रुप वर किव्हा पर्सनल ला पाठवा
+                    (नोट -अनिवार्य नाही )<br>
                 </p>
 
                 <h6>8. 24 तासात सेवा सुरू</h6>
@@ -332,7 +340,8 @@
 
 
 <!-- Modal -->
-<div class="modal fade" id="how-to-join" tabindex="-1" role="dialog" aria-labelledby="how-to-joinTitle" aria-hidden="true">
+<div class="modal fade" id="how-to-join" tabindex="-1" role="dialog" aria-labelledby="how-to-joinTitle"
+    aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document" style="margin:0px; max-width:unset;">
         <div class="modal-content">
             <div class="modal-header">
@@ -345,7 +354,8 @@
                 <section class="">
                     <div class="container text-center pb-4 mx-auto">
                         <video controls id="video1">
-                            <source src="<?= site_url('assets/front_commonarea/img/how_to_join.mp4'); ?>" type="video/mp4">
+                            <source src="<?= site_url('assets/front_commonarea/img/how_to_join.mp4'); ?>"
+                                type="video/mp4">
                             <source src="movie.ogg" type="video/ogg">
                             Your browser does not support the video tag.
                         </video>
@@ -365,10 +375,10 @@
 
 
 <script>
-    $('#how-to-join').on('shown.bs.modal', function() {
-        $('#video1')[0].play();
-    })
-    $('#how-to-join').on('hidden.bs.modal', function() {
-        $('#video1')[0].pause();
-    })
+$('#how-to-join').on('shown.bs.modal', function() {
+    $('#video1')[0].play();
+})
+$('#how-to-join').on('hidden.bs.modal', function() {
+    $('#video1')[0].pause();
+})
 </script>
