@@ -4,10 +4,16 @@ th {
 
 	background: linear-gradient(
 		180deg,
-		rgb(4 38 64) 0%,
-		rgb(43 168 225) 100%
-	) !important;
+		rgb(10 70 110) 0%,
+		rgb(2 61 100) 100%
+	   ) !important;
 	color: white;
+}
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    background-color: #034672;
+}
+.skin-blue .main-header li.user-header {
+    background-color: #ec6402;
 }
 .table > tbody > tr > td {
 	border-top: 1px solid #ece5e5;
@@ -86,31 +92,34 @@ th {
 	background-color: #ffffff;
 }
 .skin-blue .main-header .navbar {
-	background: linear-gradient(
-		90deg,
-		rgb(4 38 64) 0%,
-		rgb(43 168 225) 100%
-	) !important;
+	background: #023d64 !important;
 }
 .skin-blue .main-sidebar {
 	background: linear-gradient(
 		90deg,
-		rgb(4 38 64) 0%,
-		rgb(43 168 225) 100%
-	) !important;
+		rgb(26 80 116) 0%,
+		rgb(2 69 114) 100%
+		  ) !important;
+}
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li.menu-open>a{
+	background: #023d64 !important;
+}
+.skin-blue .sidebar-menu>li>.treeview-menu {
+    margin: 0 1px;
+    background: #0a466e;
 }
 .skin-blue .sidebar-menu > li.active > a,
 .skin-blue .sidebar-menu > li:hover > a {
-	background: #21a5e0 !important;
+	background: #023d64 !important;
 }
 .skin-blue .sidebar-menu .treeview-menu > li > a:hover {
-	color: #21a5e0;
+	color: #fff;
 }
 .skin-blue .sidebar-menu > li.active > a {
-	border-left-color: #21a5e0 !important;
+	border-left-color: #fff !important
 }
 .box.box-primary {
-	border-top-color: #21a5e0 !important;
+	border-top-color: #004f84 !important
 }
 .box-body {
 	min-height: 480px;

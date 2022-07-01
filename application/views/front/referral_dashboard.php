@@ -20,8 +20,8 @@
             <div class="container refdash">
 
                 <a href="<?= site_url('referral-dashboard') ?>" class="navbar-brand logo">
-                    <!-- <img src="<?= site_url('assets/commonarea/'); ?>dist/img/Scrolup-Logo.png" height="60px"> -->
-                    <img src="<?php echo base_url(); ?><?php echo !empty($visualSettings[0]['logo']) ? $visualSettings[0]['logo'] : 'assets/commonarea/dist/img/Scrolup-Logo.png'; ?>" height="60px">
+                    <!-- <img src="<?= site_url('assets/commonarea/'); ?>dist/img/infotech-marathi-Logo-min.png" height="60px"> -->
+                    <img src="<?php echo base_url(); ?><?php echo !empty($visualSettings[0]['logo']) ? $visualSettings[0]['logo'] : 'assets/commonarea/dist/img/infotech-marathi-Logo-min.png'; ?>" height="60px">
                 </a>
                 <div class="dashboard">
                     <a href="#" class="user-sec" style="padding-right: 10px;">

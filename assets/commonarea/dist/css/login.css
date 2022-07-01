@@ -54,7 +54,7 @@ p.w3l-register-p {
 	box-sizing: border-box;
 }
 .logo-section {
-	background-color: #f1faff;
+	background-color: #fbfbfb;
 	padding: 2rem;
 	border-radius: 10px;
 }
@@ -92,7 +92,7 @@ p.w3l-register-p {
 	font-size: 12px;
 }
 .group i {
-	color: #2aa4dc;
+	color: #ec6402;
 	font-size: 20px;
 	padding: 0 10px;
 }
@@ -140,9 +140,9 @@ input[type="password"]:focus {
 .button {
 	background: linear-gradient(
 		90deg,
-		rgb(4 38 64) 0%,
-		rgb(43 168 225) 100%
-	) !important;
+		rgb(199 84 2) 0%,
+		rgb(255 107 0) 100%
+	   ) !important;
 	/* background: #fc3955; */
 	color: #ffffff;
 	font-size: 13px;
@@ -172,8 +172,9 @@ input[type="password"]:focus {
 .button:hover {
 	background: linear-gradient(
 		90deg,
-		rgb(4 38 64) 0%,
-		rgb(43 168 225) 100%
+		rgb(255 107 0) 0%,
+		 rgb(199 84 2) 100%
+	   ) !important;
 	) !important;
 	transition-duration: 5s;
 }

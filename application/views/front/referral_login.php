@@ -28,8 +28,8 @@
     <nav class="navbar navbar-light bg-light">
         <div class="container">
             <a href="<?= site_url() ?>" class="navbar-brand logo">
-                <!-- <img src="<?= site_url('assets/commonarea/'); ?>dist/img/Scrolup-Logo.png" height="60px"> -->
-                <img src="<?php echo base_url(); ?><?php echo !empty($visualSettings[0]['logo']) ? $visualSettings[0]['logo'] : 'assets/commonarea/dist/img/Scrolup-Logo.png'; ?>"
+                <!-- <img src="<?= site_url('assets/commonarea/'); ?>dist/img/infotech-marathi-Logo-min.png" height="60px"> -->
+                <img src="<?php echo base_url(); ?><?php echo !empty($visualSettings[0]['logo']) ? $visualSettings[0]['logo'] : 'assets/commonarea/dist/img/infotech-marathi-Logo-min.png'; ?>"
                     height="60px">
             </a>
             <div class="dropdown ">
