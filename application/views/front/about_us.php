@@ -267,7 +267,7 @@
                                 class="" />
                             <h3>Self Employment Guidance</h3>
                             <p>
-                                The industry will guide and scroll up to help you achieve new
+                                The industry will guide and Infotech Marathi to help you achieve new
                                 goals and ensure its steady long-term expansion.
                             </p>
                         </div>
@@ -353,7 +353,7 @@
                                 class="" />
                             <h3>Health</h3>
                             <p>
-                                Scroll up Digital Magazine information on WhatsApp will give you
+                                Infotech Marathi Digital Magazine information on WhatsApp will give you
                                 knowledge, new diseases and how to prevent them to stay healthy.
                             </p>
                         </div>

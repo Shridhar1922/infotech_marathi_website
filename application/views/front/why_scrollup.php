@@ -56,7 +56,7 @@
 <section class="why-scrollup-bg ">
     <div class="container ">
         <h3 class="text-light about-title">
-            Why ScrollUp
+            Why Infotech Marathi
         </h3>
 
     </div>
@@ -101,7 +101,8 @@
 
                         <h3>Privacy</h3>
                         <p>
-                            Scroll up does not share your Personal Information with third parties for their direct
+                            Infotech Marathi does not share your Personal Information with third parties for their
+                            direct
                             marketing purposes. We care a lot about your number.</p>
                     </div>
                 </div>
@@ -187,7 +188,8 @@
 
                         <h3>Privacy</h3>
                         <p>
-                            Scroll up does not share your Personal Information with third parties for their direct
+                            Infotech Marathi does not share your Personal Information with third parties for their
+                            direct
                             marketing purposes. We care a lot about your number.</p>
                     </div>
                 </div>
