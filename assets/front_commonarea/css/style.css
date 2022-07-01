@@ -517,25 +517,25 @@ footer p.text-muted {
 	animation: squidge-4 var(--duration) ease-in-out infinite alternate;
 }
 .📦:nth-child(2):after {
-	background-color: #1c9fff;
+	background-color: #004f84;
 }
 .📦:nth-child(3):after {
-	background-color: #1fb1fd;
+	background-color:#02609e;
 }
 .📦:nth-child(4):after {
-	background-color: #22c7fb;
+	background-color: #0361a0;
 }
 .📦:nth-child(5):after {
-	background-color: #23d3fb;
+	background-color: #034570;
 }
 
 @-webkit-keyframes slide {
 	0% {
-		background-color: #1795ff;
+		background-color: #004f84;
 		transform: translatex(0vw);
 	}
 	100% {
-		background-color: #23d3fb;
+		background-color: #004e81;
 		transform: translatex(
 			calc(var(--container-size) - (var(--box-size) * 1.25))
 		);
@@ -544,11 +544,11 @@ footer p.text-muted {
 
 @keyframes slide {
 	0% {
-		background-color: #1795ff;
+		background-color: #004f84;
 		transform: translatex(0vw);
 	}
 	100% {
-		background-color: #23d3fb;
+		background-color: #004e81;
 		transform: translatex(
 			calc(var(--container-size) - (var(--box-size) * 1.25))
 		);
@@ -556,18 +556,18 @@ footer p.text-muted {
 }
 @-webkit-keyframes color-change {
 	0% {
-		background-color: #1795ff;
+		background-color: #004f84;
 	}
 	100% {
-		background-color: #23d3fb;
+		background-color: #004e81;
 	}
 }
 @keyframes color-change {
 	0% {
-		background-color: #1795ff;
+		background-color: #004f84;
 	}
 	100% {
-		background-color: #23d3fb;
+		background-color: #004e81;
 	}
 }
 @-webkit-keyframes flip-1 {
@@ -944,8 +944,8 @@ p.signup {
 	text-align: center;
 }
 .btn-outline-dark {
-	border: 1px solid#3682b3;
-	color: #3682b3;
+	border: 1px solid#004f84;
+	color: #004f84;
 	padding: 6px 20px;
 	font-size: 14px;
 	text-transform: capitalize;
@@ -960,8 +960,8 @@ p.signup {
 	width: auto;
 }
 .logout-btn {
-	border: 1px solid#3682b3;
-	color: #3682b3;
+	border: 1px solid#004f84;
+	color: #004f84;
 	padding: 6px 20px;
 	font-size: 14px;
 	text-transform: capitalize;
@@ -1287,7 +1287,7 @@ div.dataTables_wrapper div.dataTables_filter label,
 	color: #fff !important;
 }
 .user-name {
-	color: #3682b3;
+	color: #004f84;
 }
 .user-sec:hover {
 	text-decoration: none !important;
@@ -1440,14 +1440,14 @@ a#goto_link_click:hover {
 
 	/* font-family: "jaldi", sans-serif; */
 	font-size: 17px;
-	color: #3682b3;
+	color: #004f84;
 	font-weight: 600;
 }
 
 #how_to ul li::before {
 	content: "";
 	height: 6px;
-	background: #3682b3;
+	background: #004f84;
 	font-weight: bold;
 	display: inline-block;
 	width: 6px;
@@ -1468,7 +1468,7 @@ a#goto_link_click:hover {
 .mobile-view > a::after {
 	display: block;
 	content: "";
-	border-bottom: solid 2px #3682b3;
+	border-bottom: solid 2px #004f84;
 	transform: scaleX(0);
 	transition: transform 250ms ease-in-out;
 }
@@ -1503,7 +1503,7 @@ a#goto_link_click:hover {
 }
 
 #icon-boxes h4 {
-	color: #3682b3;
+	color: #004f84;
 	/* font-family: "jaldi", serif; */
 }
 
@@ -1517,7 +1517,7 @@ a#goto_link_click:hover {
 
 /* TERMS & CONDITIONS */
 .footer-link-col a {
-	color: #3682b3;
+	color: #004f84;
 	text-align: center;
 }
 
@@ -1550,7 +1550,7 @@ a#goto_link_click:hover {
 	background: #d5e4ed;
 	padding: 4px 10px;
 	color: #000000;
-	/* border: 1px solid #3682b3; */
+	/* border: 1px solid #004f84; */
 	border-radius: 3px;
 	font-weight: 600;
 	font-size: 14px;
@@ -1584,7 +1584,7 @@ a#goto_link_click:hover {
 	display: block;
 }
 /* .bg-head-col {
-	background-color: #3682b3;
+	background-color: #004f84;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	padding-left: 0.5rem;
@@ -1616,7 +1616,7 @@ a.lk1 {
 }
 
 .bg-logo-color {
-	background-color: #3682b3;
+	background-color: #004f84;
 }
 /* #video_modal {
 	text-align: -webkit-center;
@@ -1714,7 +1714,7 @@ a.lk1 {
 }
 
 .active {
-	color: #3682b3 !important;
+	color: #004f84 !important;
 	/* font-weight: bold !important; */
 }
 .slider-div {
@@ -1770,7 +1770,7 @@ a.lk1 {
 	border-radius: 50% !important;
 }
 .slider-navigation-style-03 i {
-	color: #3682b3;
+	color: #004f84;
 }
 
 .dropdown-toggle::after {
@@ -1805,7 +1805,7 @@ a.lk1 {
 .card-body h3 {
 	font-size: 20px;
 	font-weight: 600;
-	color: #3682b3;
+	color: #004f84;
 	font-family: "jaldi", serif;
 }
 
@@ -1847,7 +1847,7 @@ a.lk1 {
 	top: 9px;
 	position: absolute;
 	height: 6px;
-	background: #3682b3;
+	background: #004f84;
 	font-weight: bold;
 	display: inline-block;
 	width: 6px;
@@ -1863,7 +1863,7 @@ a.lk1 {
 }
 
 .btn-main {
-	background-color: #3682b3;
+	background-color: #004f84;
 	color: #fff !important;
 	margin-bottom: 2px;
 }
@@ -2150,7 +2150,7 @@ a.lk1 {
 .content-marathi h4 {
 	font-size: 20px;
 	font-weight: 600;
-	color: #3682b3;
+	color: #004f84;
 	font-family: "karma", serif;
 }
 .content-marathi h4 {
@@ -2227,7 +2227,7 @@ a.lk1 {
 }
 .gotohome a:hover {
 	text-decoration: none;
-	color: #3682b3;
+	color: #004f84;
 }
 
 .mobile-display {
@@ -2247,4 +2247,14 @@ a.lk1 {
 
 #how-to p {
 	font-family: "Karma", serif;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #004f84;
+    border-color: #004f84;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #01406a;
+    border-color: #01406a;
 }

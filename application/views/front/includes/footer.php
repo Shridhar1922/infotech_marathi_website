@@ -4,9 +4,9 @@
     </p> -->
     <p class="para-desc mx-auto text-muted mt-1 text-center font-jaldi-bold" style="margin-bottom: 0px !important">
         ©<script type="text/javascript">
-            var year = new Date();
-            document.write(year.getFullYear());
-        </script> Scrollup. All Rights Reserved
+        var year = new Date();
+        document.write(year.getFullYear());
+        </script> Infotech Marathi. All Rights Reserved
     </p>
 </footer>
 <div class="msg_div">
