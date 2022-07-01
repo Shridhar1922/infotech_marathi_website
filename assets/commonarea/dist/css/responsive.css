@@ -1,0 +1,186 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	.w3l-login-form {
+		margin: 15rem 1rem;
+	}
+	.login-form {
+		padding: 0rem 1em 2rem;
+	}
+	.content-wrapper {
+		margin-top: 100px !important;
+		min-height: 600px !important;
+	}
+	.box-body {
+		min-height: auto;
+	}
+	.main-sidebar {
+		padding-top: 100px;
+	}
+	.mob-no-pad {
+		padding: 0;
+	}
+	.dataTables_wrapper .row:first-child {
+		flex-wrap: nowrap;
+		white-space: nowrap;
+		display: flex;
+		align-items: flex-start;
+		justify-content: flex-start;
+		margin-top: -8px;
+		margin-bottom: 10px;
+	}
+	.dataTables_wrapper .row:first-child .col-sm-6 {
+		width: 50%;
+	}
+	.dataTables_wrapper {
+		padding-top: 0px;
+	}
+	.dataTables_length label {
+		width: 100%;
+	}
+	.table-responsive {
+		border: none;
+	}
+	.dataTables_filter label,
+	.dataTables_length label select.input-sm {
+		margin-top: 10px;
+	}
+	select.input-sm {
+		width: 45%;
+		margin: auto;
+		display: inherit;
+		margin-top: 18px;
+	}
+	.dataTables_filter label {
+		display: flex;
+		align-items: center;
+	}
+	.table-responsive #example_wrapper .row .col-sm-12 table {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.table-responsive #example_wrapper .row .col-sm-12 {
+		overflow-x: auto !important;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.table-responsive {
+		overflow: hidden !important;
+	}
+	.dataTables_info {
+		text-align: left !important;
+	}
+	.dataTables_paginate .pagination {
+		display: flex;
+	}
+	.modal-dialog {
+		width: auto !important;
+	}
+	.sidebar-open .content-wrapper,
+	.sidebar-open .main-footer {
+		transform: translate(0, 0);
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.dataTables_wrapper .dataTables_filter,
+	.dataTables_wrapper .dataTables_paginate {
+		margin-top: 0 !important;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	.main-sidebar {
+		top: 50px;
+	}
+	.content-wrapper {
+		min-height: 600px !important;
+		margin-top: 100px !important;
+	}
+	.box-body {
+		min-height: auto;
+	}
+	.main-sidebar {
+		padding-top: 62px;
+	}
+	.mob-no-pad {
+		padding: 0;
+	}
+	.dataTables_wrapper .row:first-child {
+		flex-wrap: nowrap;
+		white-space: nowrap;
+		display: flex;
+		align-items: flex-start;
+		justify-content: flex-start;
+		/* margin-top: -8px; */
+		margin-bottom: 10px;
+	}
+	.dataTables_wrapper .row:first-child .col-sm-6 {
+		width: 50%;
+	}
+	.dataTables_wrapper {
+		padding-top: 0px;
+	}
+	.dataTables_length label {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.table-responsive {
+		border: none;
+	}
+	.dataTables_filter label,
+	.dataTables_length label select.input-sm {
+		margin-top: 0px;
+	}
+	select.input-sm {
+		width: 45%;
+		margin: auto;
+		display: inherit;
+		margin-top: 18px;
+	}
+	.dataTables_filter label {
+		display: flex;
+		align-items: center;
+	}
+	.table-responsive #example_wrapper .row .col-sm-12 table {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.table-responsive #example_wrapper .row .col-sm-12 {
+		overflow-x: auto !important;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.table-responsive {
+		overflow: hidden !important;
+	}
+	.dataTables_info {
+		text-align: left !important;
+	}
+	.dataTables_paginate .pagination {
+		display: flex;
+	}
+	.modal-dialog {
+		width: auto !important;
+	}
+	.sidebar-open .content-wrapper,
+	.sidebar-open .main-footer {
+		transform: translate(0, 0);
+	}
+	.navbar-custom-menu .navbar-nav > li > a {
+		padding-bottom: 0px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1201px) {
+}

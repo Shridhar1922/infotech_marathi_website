@@ -1,0 +1,304 @@
+/* body {
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/scrollup-bg1.jpg);
+	min-height: 100vh;
+	background-size: cover;
+	font-family: "Raleway", sans-serif;
+} */
+.login-page {
+	background-image: linear-gradient(
+			180deg,
+			rgb(4 38 64 / 46%) 0%,
+			rgb(43 168 225 / 49%) 100%
+		),
+		url(../img/scrollup-bg1.jpg) !important;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+h1 {
+	margin: 0;
+	color: #ffffff;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	padding: 50px 0;
+}
+
+h2 {
+	margin: 0;
+	color: #fc3955;
+	font-size: 25px;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 1px;
+	padding-bottom: 30px;
+}
+
+p.w3l-register-p {
+	color: #eee;
+	font-size: 13px;
+	text-align: center;
+	margin-top: 2em;
+}
+
+.w3l-login-form {
+	/* background: rgba(0, 0, 0, 0.4117647058823529); */
+	background: #fff;
+	max-width: 440px;
+	margin: 11rem auto;
+
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+.logo-section {
+	background-color: #f1faff;
+	padding: 2rem;
+	border-radius: 10px;
+}
+.logo-section img {
+	height: 55px;
+	width: 170px;
+	margin: auto;
+	display: flex;
+}
+.login-form {
+	padding: 0rem 3em 2rem;
+}
+.login-box-body,
+.register-box-body {
+	padding: 0px;
+	border-radius: 10px;
+}
+.group {
+	display: flex;
+	align-items: center;
+	position: relative;
+	/* padding: 5px 5px; */
+	background-color: #ffffff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+.group #email-error {
+	position: absolute;
+	bottom: -31px;
+	font-size: 12px;
+}
+.group #password-error {
+	position: absolute;
+	bottom: -31px;
+	font-size: 12px;
+}
+.group i {
+	color: #2aa4dc;
+	font-size: 20px;
+	padding: 0 10px;
+}
+input[type="checkbox"],
+input[type="radio"] {
+	margin-top: 0px;
+	margin-right: 5px;
+}
+.forgot p {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.w3l-form-group {
+	margin: 20px 0 25px;
+}
+
+.w3l-form-group label {
+	display: block;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #2b2a28;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+	font-style: italic;
+}
+.w3l-form-group label.error {
+	color: red;
+}
+
+input[type="text"],
+input[type="password"] {
+	width: 100%;
+	border: none;
+	box-sizing: border-box;
+	background: transparent;
+	color: #000;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+	outline: none;
+}
+
+.button {
+	background: linear-gradient(
+		90deg,
+		rgb(4 38 64) 0%,
+		rgb(43 168 225) 100%
+	) !important;
+	/* background: #fc3955; */
+	color: #ffffff;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border: none;
+	padding: 12px 60px;
+	cursor: pointer;
+	width: 100%;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.overlay {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgb(0 0 0 / 67%);
+	/* background: rgba(255, 255, 255, 0.92); */
+	z-index: 9;
+}
+.button:hover {
+	background: linear-gradient(
+		90deg,
+		rgb(4 38 64) 0%,
+		rgb(43 168 225) 100%
+	) !important;
+	transition-duration: 5s;
+}
+
+.forgot {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+
+a {
+	color: #2b2a28;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.forgot p {
+	color: #2b2a28;
+	text-align: center;
+	margin: 0px;
+	font-size: 13px;
+}
+
+.register {
+	color: #00bcd4;
+	text-decoration: none;
+}
+
+/*--footer--*/
+
+p.copyright-agileinfo {
+	font-size: 15px;
+	letter-spacing: 2px;
+	color: #fff;
+	font-weight: 300;
+}
+
+footer p a {
+	display: inline-block;
+	color: #fff;
+	text-decoration: underline;
+}
+
+footer p a:hover {
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	transition: 0.5s all;
+}
+
+footer {
+	padding: 4em 0;
+	text-align: center;
+}
+/*--//footer--*/
+
+/*-- /responsive design --*/
+
+@media (max-width: 768px) {
+	h1 {
+		font-size: 47px;
+	}
+}
+
+@media (max-width: 667px) {
+	h1 {
+		font-size: 45px;
+	}
+}
+
+@media (max-width: 640px) {
+	p.copyright-agileinfo {
+		letter-spacing: 1px;
+	}
+	h1 {
+		font-size: 43px;
+	}
+}
+
+@media (max-width: 568px) {
+	h1 {
+		font-size: 40px;
+	}
+	p.copyright-agileinfo {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 480px) {
+	.w3l-login-form {
+		margin: 0 3vw;
+	}
+	h1 {
+		font-size: 38px;
+	}
+	p.copyright-agileinfo {
+		line-height: 1.8em;
+	}
+}
+
+@media (max-width: 414px) {
+	h1 {
+		font-size: 34px;
+	}
+}
+
+@media (max-width: 384px) {
+	h1 {
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 320px) {
+	h1 {
+		font-size: 25px;
+	}
+	.forgot p {
+		text-align: left;
+	}
+	.forgot {
+		display: block;
+	}
+}
+
+/*-- /responsive design --*/

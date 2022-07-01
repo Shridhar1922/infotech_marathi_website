@@ -1,0 +1,390 @@
+/* Start Responsive */
+
+@media only screen and (max-width: 991.98px) {
+	.ref-box {
+		margin-bottom: 15px;
+	}
+	.banner-bg {
+		padding: 15px;
+	}
+	.dash {
+		height: auto !important;
+		padding: 17px 0 !important;
+	}
+}
+
+@media only screen and (max-width: 767.98px) {
+	.ref-box {
+		margin-bottom: 15px;
+	}
+	.banner-bg {
+		padding: 15px;
+	}
+	.dash {
+		height: auto !important;
+		padding: 17px 0 !important;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+
+	.cardbox {
+		padding: 15px 4px !important;
+	}
+
+	.mob-pad-top {
+		padding-top: 1rem;
+	}
+	.why-scrollup-bg {
+		background: url("../img/header-bag.jpg") !important;
+		height: unset !important;
+	}
+
+	.about-bg {
+		background: url("../img/header-bag.jpg") !important;
+		height: unset !important;
+	}
+
+	.contact-us-bg {
+		background: url("../img/header-bag.jpg") !important;
+		height: unset !important;
+	}
+	.how-to-join-bg {
+		background: url("../img/header-bag.jpg") !important;
+		height: unset !important;
+	}
+	.why-scrollup {
+		display: none;
+	}
+
+	.why-scrollup-mobile {
+		display: block !important;
+	}
+	.about-bg h3 {
+		text-align: center;
+	}
+
+	.about-us-1 {
+		height: 200px;
+	}
+
+	.about-us-2 {
+		height: 200px;
+	}
+
+	#first {
+		order: 2;
+	}
+	#second {
+		order: 1;
+	}
+
+	#about .my-4 {
+		margin-bottom: 0px !important;
+	}
+
+	#icon-boxes .card {
+		margin-bottom: 1rem;
+	}
+
+	#icon-boxes h3 {
+		font-size: 1.5rem;
+	}
+
+	#about p {
+		margin-left: 0rem !important;
+	}
+	#about h4 {
+		margin-left: 0rem !important;
+		text-align: center;
+	}
+	.pt-30px.main-banner {
+		padding-top: 20px !important;
+	}
+	.ref-box {
+		margin-bottom: 15px;
+	}
+	.banner-bg {
+		padding: 15px;
+	}
+	.content-photo {
+		margin-top: 2rem !important;
+	}
+	.dash {
+		height: auto !important;
+		padding: 17px 0 !important;
+	}
+	.navbar {
+		padding: 8px;
+	}
+	.navbar-brand img {
+		width: 140px;
+		height: 48px;
+	}
+	.refdash {
+		display: flex !important;
+		align-items: center !important;
+		flex-wrap: initial !important;
+		padding: 0px !important;
+	}
+	.btn-outline-dark,
+	.logout-btn {
+		padding: 6px 8px;
+		font-size: 12px;
+	}
+	.mobilediv {
+		display: block !important;
+	}
+	.user-sec {
+		display: flex;
+		align-items: center;
+	}
+	.desktop-div,
+	.slider-desktop {
+		display: none !important;
+	}
+	.mobile-nav {
+		display: flex !important;
+	}
+	.logout-btn {
+		margin-left: 0px;
+	}
+	.mobile-nav a {
+		border: 0px;
+		font-size: 16px;
+	}
+	.trms {
+		display: initial !important;
+	}
+}
+
+@media (max-width: 600px) {
+
+	.text_how {
+		display: block;
+		padding-top: 5px;
+		margin-left: unset !important;
+	}
+	.form-box {
+		position: relative;
+		bottom: unset;
+		padding: 25px 20px !important ;
+	}
+	.sublines {
+		font-size: 16px !important;
+	}
+	img.logowa {
+		width: 60px;
+	}
+	footer p.text-muted {
+		font-size: 12px;
+	}
+	/*  */
+	.content-english .row {
+		margin-bottom: 0px !important;
+	}
+	.content-marathi .row {
+		margin-bottom: 0px !important;
+	}
+	.content-english {
+		padding-top: 0px !important;
+	}
+	.about-title {
+		text-align: center;
+		padding: 4rem 0rem !important;
+	}
+	#contact {
+		padding-top: 0px !important;
+	}
+	#icon-boxes .card-body {
+		height: unset !important;
+	}
+	.desktop-view {
+		display: none;
+	}
+	.mobile-display {
+		display: block !important;
+	}
+
+	.mobile-display .row {
+		padding-top: 0px !important;
+		padding-bottom: 0px !important;
+	}
+	#mobile-btn .filter-btn {
+		width: 45%;
+	}
+	#how-to-join video {
+		height: 450px !important;
+	}
+
+	.modal-header .close {
+		right: 42% !important;
+	}
+	#how-to-join .modal-body {
+        padding: 20px 0px !important;
+    }
+
+	.language {
+		display: none;
+	}
+
+	#how-to button {
+		position: unset !important;
+	}
+
+	.step-1 img {
+		top: -25px !important;
+
+		height: 250px !important;
+	}
+
+	.dropdown-menu {
+		height: 270px;
+		width: 180px;
+	}
+	.why-scrollup-bg h3 {
+		text-align: center;
+	}
+
+	.contact-us-bg h3 {
+		text-align: center;
+	}
+	.how-to-join-bg h3 {
+		text-align: center;
+	}
+
+	.dropdown a {
+		font-size: 16px !important;
+		padding: 8px !important;
+	}
+
+	.radio_btn {
+		display: flex;
+		justify-content: right;
+		align-items: center;
+		font-size: 13px;
+	}
+
+	input[type="checkbox"],
+	input[type="radio"] {
+		margin: 0px 6px;
+		height: 10px;
+	}
+	#mobile-lang {
+		display: block !important;
+		padding: 5px 10px;
+	}
+
+	#mobile-lang label {
+		margin-bottom: 0;
+	}
+
+	.dropdown {
+		position: absolute;
+		right: 10px;
+	}
+
+	footer p {
+		margin-top: 0px !important;
+	}
+	.mob-show {
+		display: block;
+	}
+	.mob-hide {
+		display: none;
+	}
+	.navbar-brand.logo {
+		width: 100%;
+		text-align: center;
+	}
+	.title-heading {
+		margin-bottom: 0px !important;
+	}
+	/* .sticky .navbar .container {
+		display: unset !important;
+		flex-wrap: unset !important;
+		align-items: center;
+		text-align: center;
+	} */
+	.form-box {
+		position: relative;
+		bottom: unset;
+		padding: 0px 20px !important;
+		box-shadow: none !important;
+		background: none;
+	}
+	.form-box p {
+		margin-bottom: 10px !important;
+		font-size: 16px;
+	}
+	.sublines {
+		font-size: 20px !important;
+	}
+	img.logowa {
+		width: 30px;
+	}
+	footer p.text-muted {
+		font-size: 12px;
+	}
+	.input-icon {
+		font-size: 18px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.mobile-view {
+		margin: initial !important;
+		padding-top: 0px !important ;
+	}
+/* 
+	#how-to-join video {
+		height: 350px !important;
+	}
+	.modal-header .close {
+		left: 85% !important;
+	}
+} */
+
+@media only screen and (max-width: 414px) {
+	.ref-box {
+		margin-bottom: 15px;
+	}
+	.banner-bg {
+		padding: 15px;
+	}
+	.content-left h3 {
+		font-size: 26px !important;
+	}
+	.content-photo {
+		margin-top: 2rem !important;
+	}
+	.column1 {
+		padding: 1rem 1rem;
+	}
+	.dash {
+		height: auto !important;
+		padding: 17px 0 !important;
+	}
+	.navbar-brand img {
+		width: 140px;
+		height: 48px;
+	}
+	.refdash {
+		display: flex !important;
+		align-items: center !important;
+		flex-wrap: initial !important;
+		padding: 0px !important;
+	}
+	.btn-outline-dark,
+	.logout-btn {
+		padding: 6px 8px;
+		font-size: 12px;
+	}
+	.navbar {
+		padding: 8px;
+	}
+	.user-sec {
+		display: flex;
+		align-items: center;
+	}
+}
