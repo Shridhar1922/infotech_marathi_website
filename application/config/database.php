@@ -77,9 +77,9 @@ $db['default'] = array(
 
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => 'infotechmarathi_liveUser',
-	'password' => 'Y6(IC$+ZAFZh',
-	'database' => 'infotechmarathi_liveDB',
+	'username' => 'root',
+	'password' => '',
+	'database' => 'infotech_marathi',
 
 
 	'dbdriver' => 'mysqli',
